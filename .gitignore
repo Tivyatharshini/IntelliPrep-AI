@@ -1,0 +1,25 @@
+node_modules
+dist
+.env
+npm-debug.log*
+vite.svg
+
+# Ignore everything
+*
+
+# Allow folders/files to be tracked
+!backend/
+!frontend/
+!README.md
+!.gitignore
+
+# Allow contents inside backend and frontend
+!backend/**
+!frontend/**
+
+node_modules/
+.env
+backend/.env
+frontend/.env
+dist/
+backend/.env.example
